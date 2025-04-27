@@ -37,7 +37,7 @@ s<!DOCTYPE html>
     backdrop-filter: blur(2px);
   }
   
-    .about img { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 20px;
+    .about img { 
     transition: transform .35s; }
     .about img:hover{
       transform: scale(1.15);
@@ -98,7 +98,11 @@ s<!DOCTYPE html>
 </section>
 
 <section id="about" class="about" data-aos="fade-right">
-  <img style="object-fit: cover;" src="Fra.webp" alt="Faruk Arse ">
+  <div style="width: 150px;height: 150px; border: solid rgba(255, 170, 73, 0.164); border-radius: 50%; display: flex; justify-content: center; align-items: center;
+   object-fit: contain;">
+    
+  <img style="boder-radius:50%; width:100%;height:100%;" src="Fra.webp" alt="Faruk Arse ">
+  </div>
   <h2>About Me</h2>
   <p>I'm a creative developer with a passion for building beautiful, functional websites and applications. I love clean code, modern design, and solving interesting problems.</p>
 </section>
